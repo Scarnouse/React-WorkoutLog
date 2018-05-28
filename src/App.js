@@ -17,7 +17,7 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
+      <div className="fade-in">
         {this.state.signedIn ? 
           <WorkoutLog onLogout={ this._onLogout } /> :
           <Authentication onAuthComplete={ this._onAuthComplete }/>

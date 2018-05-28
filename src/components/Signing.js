@@ -3,7 +3,9 @@ import React, { Component } from 'react';
 class Signing extends Component {    
     render() {
         return (
-            <div>
+            <header id="header">
+            </header>
+            <div className="main">
                 <label htmlFor="username">Usuario
                     <input type="text" id="username" />
                 </label>
